@@ -1,7 +1,7 @@
 import nominatim
 import wildlife
 
-def display_menu():
+def display_menu()
     print("Help\n====")
     print("The following commands are recognised:")
     print("Display help wildlife> help")
