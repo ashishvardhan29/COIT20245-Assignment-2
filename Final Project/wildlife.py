@@ -4,7 +4,7 @@ def get_species_list(coordinate, radius):
     """
     Retrieves a list of species in an area defined by coordinates and radius.
     """
-    lat = coordinate['latitude']
+    lat = coordinate['']
     lon = coordinate['longitude']
     url = f"https://apps.des.qld.gov.au/species/?op=getspecieslist&kingdom=animals&circle={lat},{lon},{radius}"
     response = requests.get(url).json()
