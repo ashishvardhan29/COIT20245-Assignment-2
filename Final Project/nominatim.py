@@ -1,6 +1,6 @@
 import requests
 
-def gps_coordinate():
+def gps_coordinate(city):
     """
     Retrieves GPS coordinates for a given city using the Nominatim web service.
     """
